@@ -13,7 +13,7 @@ import time
 
 #Задаем константы
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
-SERVICE_ACCOUNT_FILE = r"C:\Users\Vegard\credentials.json"
+SERVICE_ACCOUNT_FILE = r"credentials.json"
 sheet_id = '1QkXYPlx527GLKJLz4-uKWR4zA8yqf5dxobtBvrWrGqk'
 token = "5312367779:AAGIaVZ12JwDu36FGtrXInYSrfeTkIv7NoI"
 bot = telebot.TeleBot(token)
